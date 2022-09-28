@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    // MARK: - Variables
     let animals: [Animal] = Bundle.main.decode("Data/animals.json")
     
     var body: some View {
